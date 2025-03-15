@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>投票</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <!--➀ヘッダー-->
+        <header>
+            <img src="img\header_img.jfif">
+        </header>
+
+        <!--➁メイン-->
+        <main>
+            <!--➂メンバー一覧-->
+            <div class="member_list">
+
+                <!--➃メンバー-->
+                <div class="member_item">
+                    <img src="img\member1.jpg">
+                    <p>サクラダ・ケンシン</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member2.jpg">
+                    <p>ソ・キョンベ</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member3.jpg">
+                    <p>チョン・ミンウク</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member4.jpg">
+                    <p>キム・ソンミン</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member5.jpg">
+                    <p>マージンシャン</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member6.jpg">
+                    <p>ソン・スンホ</p>
+                </div>
+                
+                <div class="member_item">
+                    <img src="img\member7.jpg">
+                    <p>チャン・ヨジュン</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member8.jpg">
+                    <p>キム・シフン</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member9.jpg">
+                    <p>ナム・ジウン</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member10.jpg">
+                    <p>ウ・ハジュン</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member11.jpg">
+                    <p>アン・ジュンウォン</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member12.jpg">
+                    <p>ビンファ</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member12.jpg">
+                    <p>ビンファ</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member13.jpg">
+                    <p>イチェン</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member14.jpg">
+                    <p>ユ・ヨンソ</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member15.jpg">
+                    <p>アンディー</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member16.jpg">
+                    <p>リンリン</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member17.jpg">
+                    <p>カン・ヒョヌ</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member18.jpg">
+                    <p>キム・ジョンミン</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member19.jpg">
+                    <p>チョン・セユン</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member20.jpg">
+                    <p>パク・ジュンソ</p>
+                </div>
+
+                <div class="member_item">
+                    <img src="img\member21.jpg">
+                    <p>キム・ヒョヌ</p>
+                </div>
+
+            </div>
+
+            <!--➄投票-->
+            <div class="vote">
+                <p>投票</p>
+                <form action="index.php" method="POST">
+                    <input type="text" list="member" name="selected_member" required>
+            
+                    <datalist id="member">
+                        <option value="サクラダ・ケンシン">
+                        <option value="ソ・キョンベ">
+                        <option value="チョン・ミヌク">
+                        <option value="キム・ソンミン">
+                        <option value="マージンシャン">
+                        <option value="ソン・スンホ">
+                        <option value="チャン・ヨジュン">
+                        <option value="キム・シフン">
+                        <option value="ナム・ジウン">
+                        <option value="ウ・ハジュン">
+                        <option value="アン・ジュンウォン">
+                        <option value="ビンファ">
+                        <option value="イチェン">
+                        <option value="ユ・ヨンソ">
+                        <option value="アンディー">
+                        <option value="リンリン">
+                        <option value="カン・ヒョヌ">
+                        <option value="キム・ジョンミン">
+                        <option value="チョン・セユン">
+                        <option value="パク・ジュンソ">
+                        <option value="キム・ヒョヌ">
+                    </datalist>
+                    <input type="submit" value="送信">
+                </form>
+            </div>
+            
+        </main>
+        
+    </body>
+</html>

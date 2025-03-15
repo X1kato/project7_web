@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /*要素のwidthとheightにpaddingやborderのサイズが含まれる*/
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #2d2d2d;
+}
+
+/* ➀ヘッダー */
+header{
+    width: 70%;
+    margin: 30px auto;
+}
+
+/* ➀ヘッダー 画像 */
+header img{
+    width: 100%;
+}
+
+/* ➁メイン */
+main{
+    width: 80%;
+    margin: 30px auto;
+}
+
+/* ➂メンバーリスト */
+.member_list{
+    /* 子要素を横並びにする */
+    display: flex;
+    /* 入りきらない場合は２段目へ */
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+
+/* ➃メンバー */
+.member_item{
+    width: 230px;
+    height: 230px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 1.0vw;
+}
+
+/* ➃メンバー画像 */
+.member_item img{
+    width: 80%;
+    height: 80%;
+    border: solid 1.5px #9e9e9e;
+    border-radius: 10px;
+    /* 画像を整える */
+    object-fit: cover;
+}
+
+/* ➄投票 */
+.vote{
+    width: 80%;
+    margin: 40px auto;
+    background-color: rgb(160, 225, 255);
+    border-radius: 10px;
+    padding: 50px;
+    padding-left: 100px;
+}
+
+/* ➄投票 p*/
+.vote p{
+    font-size:2.0vw;
+}
+
+/* ➄投票 */
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* ➄投票 */
+input[type="submit"] {
+    width: 10%;
+    padding: 7px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
